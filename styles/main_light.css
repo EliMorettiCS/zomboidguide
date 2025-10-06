@@ -3,17 +3,30 @@ body{
     /*Variables*/
     --color1:#161819;
     --color2:#1e2021;
+
     --color3:#fe8018;
+    --color3a:#9c5114;
+    --color3b:#ffe0c7;
+
     --color4:#67a235;
-    --color4b:#517f2a;
+    --color4a:#517f2a;
+    --color4b:#c0f493;
+
     --color5:#fb4834;
     --color5a:#9a2d21;
+    --color5b:#ffd9d5;;
+
     --color6:#83a598;
-    --color6a:rgb(90, 110, 102)8;
+    --color6a:#3e534b;
+    --color6b:#b0ebd4;
+
     --color7:#c8869c;
     --color7a:#6f4855;
+    --color7b:#fdb4cd;
+
     --color8:#d5c4a1;
     --color8a:#847962;
+    --color8b:#fff1d4;
 
     background-color: var(--color1);
     color: var(--color8);
@@ -200,4 +213,41 @@ hr{
 #coffee:hover{
     border-radius: 15px;
     transition: .2s ease-out;
+}
+
+.bottomnavbar{
+    list-style-type: none;
+    display: flex;
+    background-color: var(--color1);
+    justify-content: space-evenly;
+    border: 5px solid var(--color2);
+    border-radius: 5px;
+    box-shadow: 0px 8px var(--color2),
+        1px 10px 5px black,
+        -1px 1px 5px black,
+        1px -1px 5px black;
+    overflow:hidden;
+    transition: .2s ease-out;
+    position: fixed;
+    z-index: 1;
+    margin:5px;
+    padding:5px;
+    width: 96%;
+}
+
+.bottomnavbar:hover{
+    box-shadow: 0px 10px var(--color2),
+        1px 12px 5px black,
+        -1px 1px 5px black,
+        1px -1px 5px black;
+    transform: translateY(-2px);
+    transition: .2s ease-out;
+}
+
+.bottomnavbar li a{
+    display: block;
+    color: var(--color8);
+    padding: 5px 2px;
+    text-decoration: none;
+    transition: color .2s ease-out;
 }

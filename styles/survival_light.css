@@ -1,0 +1,301 @@
+
+body{
+    /*Variables*/
+    --color1:#161819;
+    --color2:#1e2021;
+
+    --color3:#fe8018;
+    --color3a:#9c5114;
+    --color3b:#ffe0c7;
+
+    --color4:#67a235;
+    --color4a:#517f2a;
+    --color4b:#c0f493;
+
+    --color5:#fb4834;
+    --color5a:#9a2d21;
+    --color5b:#ffd9d5;
+
+    --color6:#83a598;
+    --color6a:#3e534b;
+    --color6b:#b0ebd4;
+
+    --color7:#c8869c;
+    --color7a:#6f4855;
+    --color7b:#fdb4cd;
+}
+
+.topics-orange{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: var(--color2);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    transition: .2s ease-out;
+    background-color: var(--color1);
+}
+
+.topics-orange:hover{
+    transition: .2s ease-out;
+    background-color: var(--color2);
+}
+
+.topics-orange li {
+    display: block;
+    border-width: 5px;
+    border-color: var(--color3a);
+    background-color: var(--color3);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    flex-grow: 1;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.topics-orange li:hover{
+    box-shadow: 0px 3px var(--color3a);
+    transform: translateY(-3px);
+    transition: .2s ease-out;
+}
+
+.topics-orange li a{
+    color: var(--color3b);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    margin: -10px;
+}
+
+
+
+/*_________________________________________________________________________*/
+
+.topics-green{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: var(--color2);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    transition: .2s ease-out;
+    background-color: var(--color1);
+}
+
+.topics-green:hover{
+    transition: .2s ease-out;
+    background-color: var(--color2);
+}
+
+.topics-green li {
+    display: block;
+    border-width: 5px;
+    border-color: var(--color4a);
+    background-color: var(--color4);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    flex-grow: 1;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.topics-green li:hover{
+    box-shadow: 0px 3px var(--color4a);
+    transform: translateY(-3px);
+    transition: .2s ease-out;
+}
+
+.topics-green li a{
+    color: var(--color4b);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    margin: -10px;
+}
+
+
+
+/*_________________________________________________________________________*/
+
+.topics-red{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: var(--color2);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    transition: .2s ease-out;
+    background-color: var(--color1);
+}
+
+.topics-red:hover{
+    transition: .2s ease-out;
+    background-color: var(--color2);
+}
+
+.topics-red li {
+    display: block;
+    border-width: 5px;
+    border-color: var(--color5a);
+    background-color: var(--color5);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    flex-grow: 1;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.topics-red li:hover{
+    box-shadow: 0px 3px var(--color5a);
+    transform: translateY(-3px);
+    transition: .2s ease-out;
+}
+
+.topics-red li a{
+    color: var(--color5b);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    margin: -10px;
+}
+
+
+
+/*_________________________________________________________________________*/
+
+.topics-blue{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: var(--color2);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    transition: .2s ease-out;
+    background-color: var(--color1);
+}
+
+.topics-blue:hover{
+    transition: .2s ease-out;
+    background-color: var(--color2);
+}
+
+.topics-blue li {
+    display: block;
+    border-width: 5px;
+    border-color: var(--color6a);
+    background-color: var(--color6);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    flex-grow: 1;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.topics-blue li:hover{
+    box-shadow: 0px 3px var(--color6a);
+    transform: translateY(-3px);
+    transition: .2s ease-out;
+}
+
+.topics-blue li a{
+    color: var(--color6b);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    margin: -10px;
+}
+
+
+
+/*_________________________________________________________________________*/
+
+.topics-purple{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: var(--color2);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    transition: .2s ease-out;
+    background-color: var(--color1);
+}
+
+.topics-purple:hover{
+    transition: .2s ease-out;
+    background-color: var(--color2);
+}
+
+.topics-purple li {
+    display: block;
+    border-width: 5px;
+    border-color: var(--color7a);
+    background-color: var(--color7);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    flex-grow: 1;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.topics-purple li:hover{
+    box-shadow: 0px 3px var(--color7a);
+    transform: translateY(-3px);
+    transition: .2s ease-out;
+}
+
+.topics-purple li a{
+    color: var(--color7a);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    margin: -10px;
+}
+
+
+
+/*_________________________________________________________________________*/
